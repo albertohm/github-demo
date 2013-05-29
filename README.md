@@ -1,8 +1,6 @@
-# GraphRocket Arena
+# Github Demo
 
 This is a simple graphrocket testing app. This still in very early development.
-
-When this tool is finished a dev user should be able to test all data as a normal user
 
 ## Setup
 
@@ -12,9 +10,7 @@ When this tool is finished a dev user should be able to test all data as a norma
 
 ### Set variables
 
-  You will need to set some enviroment variables:
-    `GRAPHROCKET_HOST`: Should be an url where the API is
-    `USERNAME` and `PASSWORD`: Your credentials
+  You will need to set the `NEOGRAPHY_URI` to connect to Neo4j on production. It will try to connect to a local instance of neo4j on development.
 
 
 ### Start the app
